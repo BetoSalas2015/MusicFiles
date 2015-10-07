@@ -28,8 +28,6 @@ public class MainActivity extends Activity {
                 Duration = c.getString(c.getColumnIndex(MediaStore.Audio.Media.DURATION));
 
                 textview.append(title + " - " + Duration + "\n");
-
-
             } while(c.moveToNext());
         }
 
